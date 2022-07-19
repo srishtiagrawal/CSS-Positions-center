@@ -1,0 +1,19 @@
+h1, h2 {
+  font-family: Lato;
+}
+.outer {
+  width: 400px;
+  height: 400px;
+  background: pink;
+  position: relative;
+}
+.inner {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background: purple;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
